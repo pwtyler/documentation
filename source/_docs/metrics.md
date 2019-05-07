@@ -55,7 +55,7 @@ Data is shown for dates after March 18, 2018. If your site is not yet on the Glo
 Yes. For example, multiple devices on the same home network visiting your site would each be considered a unique visitor.
 
 ### Can I check metrics from the command line with Terminus?
-Yes! Access to metrics via the  Terminus `metrics` command. [Install Terminus](/docs/terminus/install/) or update to the <a href="/docs/terminus/updates#update-to-the-current-release-" data-proofer-ignore>current release</a> for access to the `metrics` command.
+Yes! Access to metrics via the  Terminus `metrics` command. [Install Terminus](/docs/terminus/install/) or update to the <a href="/docs/terminus/updates#update-to-the-current-release-" class="external" data-proofer-ignore>current release</a> for access to the `metrics` command.
 
 ## See Also
 - [Traffic Limits and Overages](/docs/traffic-limits/)
