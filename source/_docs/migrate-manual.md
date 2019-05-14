@@ -22,8 +22,11 @@ Site migrations are one of the services offered by our [Professional Services](/
 </div>
 
 ## Before You Begin
-To ensure a successful migration, complete the following tasks on the source site first:
+To ensure a successful migration, complete the following tasks before you start:
 
+- Read [Platform Considerations](/docs/platform-considerations/)
+- Reference your plugins / modules against [Modules and Plugins with Known Issues](/docs/modules-plugins-known-issues/)
+- Make sure your code is compatible with PHP 7.2. If not, be prepared to [downgrade](/docs/php-versions/#configure-php-version)
 - Upgrade to the latest version of WordPress or Drupal core
 - Clear all caches
 - Remove unneeded code, database tables, and files
