@@ -29,6 +29,8 @@ A Custom Upstream based off Pantheon's example repositories would need to commit
 
 This workflow has one very serious shortcoming, that is site-specific dependencies are likely to cause a lot of conflicts. The practical use case for this workflow is for a large group of sites that require a single set of dependencies. You should only use this method if you don’t intend to use site specific themes, modules, or plugins downstream.
 
+You can also prevent upstream updates by [setting an empty upstream](/docs/guides/composer-convert/#change-upstreams). This action is available to Site Owner, Organization Administrator, and Users in Charge roles.
+
 ## Next Steps
 Follow the [Build Tools Guide](/docs/guides/build-tools/) to learn best practices for Composer on Pantheon, or [Drupal 8 and Composer on Pantheon Without Continuous Integration](/docs/guides/drupal-8-composer-no-ci/) if you don't want to use CI tools in your development process.
 
@@ -38,3 +40,7 @@ If you already have a Drupal 8 site that you need to convert to a Composer-manag
 If you're not ready to go all in with a Composer workflow and you want to see how it works on a smaller scale, follow the [Manage Some Dependencies with Composer](/docs/guides/partial-composer/) guide to get started.
 
 {% include("content/notes/partial-composer-adoption-warning.html") %}
+
+## See Also
+
+ - [Convert a Standard Drupal 8 Site to a Composer Managed Site](/docs/guides/composer-convert/)
