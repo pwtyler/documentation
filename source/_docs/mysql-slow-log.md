@@ -130,7 +130,7 @@ LEFT JOIN field_data_field_section_number field_data_field_section_number ON nod
 WHERE (( (field_data_field_parent_course.field_parent_course_target_id = '7996' ) )AND(( (node.status = '1') AND (node.type IN  ('section')) AND (field_data_field_term.field_term_tid IN  ('141', '131', '126', '96')) )))) subquery\G
 ```
 
-With this output, you can copy the offending query and run it through `EXPLAIN` on the MySQL server to find out why exactly the query runs slowly. In this case, we can see that a table is missing an index, which will slow down the response.
+With this output, you can copy the offending query and run it through `EXPLAIN` on the MySQL server to find out why the query runs slowly. In this case, `EXPLAIN` shows that the table is missing an index, so adding an index could improve performance.
 
 ### MySQL Slow Query Log Filter
 Here is an example usage of MySQL Slow Query Log Filter, with a minimum execution time of 1 second, sorted by execution count and a no duplicates flag:
