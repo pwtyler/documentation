@@ -37,8 +37,10 @@ Views has a very granular caching system, down to the individual View display. T
 4. Click the option next to Block Caching.
 5. Block Caching Type: Choose an option for Drupal's built-in block caching method.
 
-## Views Caching Plugins
+## Views Caching Modules
 
+D7: 
 You can also force caching for all your views using a module like [Views cache bully](https://drupal.org/project/views_cache_bully).
 
-Views cache can also be aware of when the content itself changes with [Views content cache](https://drupal.org/project/views_content_cache).
+D8: 
+You can replace the hardcoded cache tag with a form that allows developers to set different cache tags based on configuration of the view using a module like [Views Custom Cache Tags](https://www.drupal.org/project/views_custom_cache_tag)
