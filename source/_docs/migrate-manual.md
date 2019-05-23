@@ -113,6 +113,11 @@ Your **code** is all custom and contributed modules or plugins, themes, and libr
   If you run into issues, please refer to [this documentation](/docs/sftp/#sftp-connection-information).
 
 4. Upload your existing site's plugins, modules, and themes to the `code` directory. Do not overwrite WordPress or Drupal core files on your Pantheon site.
+
+   Refer to Drupal.org for the core files for [Drupal 7](https://www.drupal.org/node/2621480){.external} and [Drupal 8](https://www.drupal.org/docs/8/understanding-drupal-8/directory-structure){.external}.
+
+   WordPress users should only need to move `wp-content/themes` and `wp-content/plugins`.
+
 5. Return to the Site Dashboard on Pantheon, and you should see quite a few files ready to be committed to version control. Write a commit message such as "Import existing codebase" then click **Commit**.
 
 ### From the Command Line with Git
