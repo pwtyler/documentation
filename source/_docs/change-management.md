@@ -38,6 +38,7 @@ If you are an administrator for a Pantheon organization, [contact support](/docs
 | Access the site Dashboard                | <span style=color:green>✔</span> | <span style=color:green>✔</span> | <span style=color:green>✔</span> |
 | Work in Dev environments                 | <span style=color:green>✔</span> | <span style=color:green>✔</span> | <span style=color:green>✔</span> |
 | Deploy to Test and Live                  | <span style=color:green>✔</span> | <span style=color:green>✔</span> | <span style=color:red>❌</span>  |
+| Clear cache on Test and Live             | <span style=color:green>✔</span> | <span style=color:green>✔</span> | <span style=color:red>❌</span>  |
 | Manage user roles                        | <span style=color:green>✔</span> | <span style=color:red>❌</span>  | <span style=color:red>❌</span>  |
 | Delete sites or remove users from a site | <span style=color:green>✔</span> | <span style=color:red>❌</span>  | <span style=color:red>❌</span>  |
 | Manage a site's plan                     | <span style=color:green>✔</span> <a rel="popover" data-proofer-ignore data-toggle="tooltip" data-html="true" data-title="Owner" data-content="When an organization is the owner of a site, users in charge cannot change the site plan."><em class="fa fa-info-circle"></em></a> | <span style=color:red>❌</span>  | <span style=color:red>❌</span>  |
